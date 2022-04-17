@@ -11,7 +11,7 @@ inicio
    EscrevaL("IMC: ", IMC:5:2)
 
    Se (IMC < 17) entao
-      Escreva("Muito abaixo do peso!")
+      EscrevaL("Muito abaixo do peso!")
    senao
       Se (IMC >= 17) e (IMC < 18.5) entao
          EscrevaL("Abaixo do peso!")
