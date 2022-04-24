@@ -15,12 +15,13 @@ inicio
       Enquanto (ini < fim) faca
          EscrevaL(ini)
          ini <- ini + 1
+
       FimEnquanto
-   SeNao
-      Se (fim > ini) entao
-       Enquanto (fim > ini) faca
+   FimSe
+   Se (ini > fim) entao
+      Enquanto (ini >= fim) faca
+         EscrevaL(ini)
          ini <- ini - 1
-         EscrevaL(fim)
-      FimSe
+      FimEnquanto
    FimSe
 FimAlgoritmo
